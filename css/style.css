@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/* Header */
+header {
+    
+    padding: 20px;
+    background-color: #cf0064f1;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf0064f1;
+    padding: 20px;
+}
+
+nav h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    text-decoration: none;
+}
+nav h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: #cf0064f1;
+}
+
+/* Other styles ... */
+
+nav{
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+
+    gap:8px;
+
+}
+
+ul:hover{
+    color:red;
+
+
+}
+
+
+
+
+
+.text1{
+
+    margin: 200px;
+    display: flex;
+
+    flex-direction: row;
+
+
+}
+
+.text1 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+
+
+
+}
+
+
+.text1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+
+
+
+}
+
+
+.text1 a{
+
+    font-size: 15px;
+
+    border:4px solid red;
+
+    background-color: red;
+
+    padding:20px;
+
+    height: 66px;
+    width: 169px;
+    border-radius: 12px;
+
+
+
+}
+
+.text1 a:hover{
+    background-color: white;
+}
+
+
+img{
+    width:600px;
+    height: 600px;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+
+   
+}
+
+
+main p{
+    font-size: 80px;
+   
+}
+
+main .p2{
+    font-size: 30px;
+}
+main h1{
+    font-size: 80px;
+    
+}
+
+main img{
+    width:1300px;
+    height: 800px;
+}
+
+
+
+
+.section1{
+
+    margin:200px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+     
+    gap:340px;
+
+
+}
+
+
+.section1 p{
+
+    
+    font-size: 18px;
+}
+
+
+.p1{
+   
+    font-size: 18px;
+}
+
+
+.section1 h1{
+    font-size: 40px;
+}
+
+
+
+.section1 img{
+    width: 328px;
+
+    height: 614px;
+
+    float:right;
+
+}
+
+
+
+
+.section2{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+ 
+    gap:340px;
+}
+
+.section2 img{
+
+    height: 440px;
+
+    width: 379px;
+
+
+}
+
+
+.section2 p{
+    font-size: 18px;
+}
+
+
+.section2 h1{
+    font-size: 40px;
+}
+
+.p2{
+    font-size: 18px;
+}
+
+
+
+.div1{
+    display: flex;
+
+    flex-direction: column;
+}
+.div1 img{
+    width: 120px;
+    height: 100px;
+}
+
+
+.div1 h3{
+    font-size:25px;
+}
+
+
+.div1 p{
+    font-size: 18px;
+    
+}
+
+.div2{
+    display: flex;
+
+    flex-direction: column;
+   
+}
+.div2 img{
+    width: 120px;
+    height: 100px;
+}
+
+
+.div2 h3{
+    font-size:25px;
+}
+
+
+.div2 p{
+    font-size: 18px;
+    
+}
+
+.div3{
+    display: flex;
+
+    flex-direction: column;
+}
+.div3 img{
+    width: 120px;
+    height: 100px;
+}
+
+
+.div3  h3{
+    font-size:25px;
+}
+
+
+.div3 p{
+    font-size: 18px;
+    
+}
+
+
+
+.section3{
+    display: flex;
+
+    flex-direction: row;
+
+
+   
+    justify-content: center;
+    
+    gap:60px;
+
+    align-items: center;
+
+
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+
+.section4 .div1 h1{
+    font-size: 90px;
+}
+
+
+.section4 .div1 p{
+    font-size: 20px;
+}
+
+
+.section4 .div2 h1{
+    font-size: 90px;
+}
+
+
+.section4 .div2 p{
+    font-size: 20px;
+}
+
+
+.section4 .div3 h1{
+    font-size: 90px;
+}
+
+
+.section4 .div3 p{
+    font-size: 20px;
+}
+
+.section4 .div4 h1{
+    font-size: 90px;
+}
+
+
+.section4 .div4 p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+.section4{
+
+    
+    margin:50px;
+    display: flex;
+    flex-direction: row;
+
+
+    
+    justify-content: center;
+
+    justify-content: space-between;
+
+    
+
+
+
+}
+
+
+
+.img20{
+    
+    width: 820px;
+    height: 100px;
+
+}
+
+.img12{
+    width: 2381.6px;
+
+    height: 857.38;
+}
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap:wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
+.section6{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap:40px;
+    
+}
+.section6 p{
+    font-size: 50px;
+
+
+
+}
+
+
+.section6 button{
+ 
+   
+    background-color: red;
+
+    padding: 20px;
+
+
+
+}
+
+.section6 .btn1{
+    
+    
+  
+    background-color: white;
+
+    padding: 20px;
+
+    
+
+}
+
+.section6 button:hover{
+    background-color: white;
+
+}
+
+
+.section6 .btn1:hover{
+    background-color: red;
+
+
+
+}
+
+
+footer{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    background-color: black;
+}
+
+
+footer p{
+    font-size: 40px;
+}
+
+footer .p1{
+    font-size: 15px;
+}
+
+
+footer input{
+    padding:20px;
+}
+
+footer button{
+    padding: 20px;
+    background-color: red;
+}
+
+footer img{
+    width:136px;
+    height: 104px;
+}
+
+.children2{
+   
+
+   display: flex;
+   flex-direction: column;
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
