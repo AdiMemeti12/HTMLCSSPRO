@@ -549,70 +549,158 @@ footer img{
 
 }
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media only screen and (max-width: 1239px){
+
+   
+
+    nav{
+        flex-direction: column;
+
+        gap:40px;
+    }
+
+    ul{
+        flex-direction: column;
+
+
+        gap:40px;
+
+
+
+    }
+
+    .text1 h1{
+        font-size: 50px;
+    }
+
+    
+    
+    .text1 p{
+        font-size: 20px;
+    }
+       
+
+    .text1{
+        margin-left: 20px;
+
+        flex-direction: column;
+
+        gap:80px;
+
+
+        
+    }
+
+    .text1 img{
+        width:400px;
+        height: 450px;
+
+        
+
+        
+    }
+
+
+    main p{
+        font-size: 25px;
+    }
+
+    main .p2{
+        font-size: 15px;
+    }
+
+
+    main img{
+        width: 300px;
+
+        height: 200px;
+    }
+
+    
+
+    .section1{
+        flex-direction: column;
+
+        
+    }
+
+    .children{
+        margin-left: -200px;
+    }
+
+
+    .section1 img{
+        margin-left: -270px;
+    }
+
+
+    
+    .section2{
+        flex-direction: column;
+
+        
+    }
+
+    .section2 .children{
+        margin-left: 50px;
+    }
+
+
+    .section2 img{
+        margin-left: 40px;
+
+
+        width: 290px;
+    }
+
+
+   .section4{
+    flex-direction: column;
+
+    gap:30px;
+   }
+
+
+   .section5 .img20{
+
+    width:200px;
+    height: 100px;
+
+   }
+
+
+   .section5 img {
+    width: 400px;
+    height: 200px;
+
+   
+
+    
+    
+    
+   }
+
+   .section6{
+    margin-left: 50px;
+    
+   }
+
+   .section6 .children{
+
+    margin-left:1px;
+    
+   }
+
+   footer .children{
+
+    margin-left: 20px;
+
+   }
 }
 
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
 
 
 
 
-/* ----------- iPad 1, 2, Mini and Air ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
 
 
-
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 600px) 
-  and (max-device-width: px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
